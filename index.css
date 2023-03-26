@@ -1,0 +1,27 @@
+.carousel-cell{
+    
+    width: 100%;
+}
+@media screen and (min-width: 993px) {
+    .carousel-cell {
+        width: 33.333%;
+    }
+  }
+
+
+
+.link{
+    color: rgb(48, 48, 48);
+    transition: color 200ms linear;
+    text-decoration: none;
+
+}
+.link:hover{
+    color: rgb(0, 64, 255);
+}
+li{
+    list-style-type: none;
+}
+.background_gray{
+    background-color: #ececec !important;
+}
